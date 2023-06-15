@@ -1,0 +1,144 @@
+.about-container {
+  padding: 4rem 1rem;
+  background: linear-gradient(
+    to right,
+    rgba(245, 245, 245, 0.8),
+    rgba(245, 245, 245, 0.8)
+  );
+}
+.main-heading {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.main-heading p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 40px 0;
+  padding: 10px;
+  color: rgb(118, 116, 116);
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+.main-heading .bottom-border {
+  position: absolute;
+  height: 5px;
+  width: 10rem;
+  background: #facf0f;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+.main-heading h1 {
+  margin-bottom: 14px;
+  color: rgb(73, 73, 73);
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  font-size: 40px;
+}
+.skills-conatiner .skills {
+  overflow: hidden;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: auto;
+}
+.skill {
+  margin: 10px 5px;
+}
+.skill .tag {
+  margin: 5pxs;
+  padding: 5px 10px;
+  color: rgb(78, 77, 77);
+  font-size: 16px;
+}
+.about-details {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-description-container {
+  color: rgb(118, 116, 116);
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  width: 40%;
+  margin: 20px auto;
+  word-spacing: 0.5rem;
+}
+.about-description {
+  margin-bottom: 20px;
+}
+.skills-heading {
+  color: rgb(73, 73, 73);
+  width: 70%;
+  margin: auto;
+  letter-spacing: 2px;
+}
+.skills-conatiner {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 50%;
+}
+.about-description-heading h1 {
+  color: rgb(73, 73, 73);
+  margin-top: 0;
+}
+.contact-button {
+  margin-top: 20px;
+  background-color: #facf0f;
+  border: #facf0f;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+.contact-button:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+@media only screen and (max-width: 1024px) {
+  .main-heading {
+    width: 70%;
+  }
+  .about-details {
+    display: block;
+  }
+  .about-description-container {
+    width: 80%;
+  }
+  .skills-conatiner {
+    width: 80%;
+  }
+  .skills-heading {
+    width: 100%;
+  }
+  .skills-conatiner .skills {
+    width: 100%;
+    justify-content: left;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .main-heading {
+    width: 90%;
+  }
+  .main-heading h1,
+  .about-description-heading h1,
+  .skills-heading h1 {
+    font-size: 25px;
+  }
+  .main-heading p,
+  .about-description {
+    font-size: 16px;
+  }
+  .skills {
+    padding: 0;
+  }
+}

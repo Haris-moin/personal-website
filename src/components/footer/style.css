@@ -1,0 +1,42 @@
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+.footer-content-container {
+  border-bottom: 1px solid rgb(73, 73, 73);
+  width: 90%;
+  margin: auto;
+}
+.footer-container .footer-content {
+  padding: 20px;
+  width: 50%;
+}
+.footer-content h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.footer-content p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+.made-by {
+  text-align: center;
+  color: grey;
+  font-size: 16px;
+  padding: 20px 0;
+}
+@media only screen and (max-width: 499px) {
+  .footer-container .footer-content {
+    padding: 20px;
+    width: 90%;
+  }
+  .footer-content h2 {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+}
