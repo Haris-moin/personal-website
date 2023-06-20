@@ -30,62 +30,85 @@ export const SKILLS = [
   {
     key: "js",
     value: "JavaScript",
+    url: "assets/skills-icons/js.png",
   },
   {
     key: "react",
     value: "React Js",
+    url: "assets/skills-icons/react.png",
   },
   {
     key: "html",
     value: "HTML",
+    url: "assets/skills-icons/html.png",
   },
   {
     key: "css",
     value: "CSS",
+    url: "assets/skills-icons/css.png",
   },
   {
     key: "scss",
     value: "SCSS",
+    url: "assets/skills-icons/scss.png",
   },
   {
     key: "node",
     value: "Node Js",
+    url: "assets/skills-icons/node.png",
   },
   {
     key: "express",
-    value: "Express",
+    value: "Express Js",
+    url: "assets/skills-icons/express.png",
   },
   {
     key: "lambda",
     value: "AWS Lambda",
+    url: "assets/skills-icons/aws-lambda.png",
   },
   {
     key: "dynamo",
     value: "AWS Dynamo",
+    url: "assets/skills-icons/dynamodb.png",
   },
   {
     key: "s3",
     value: "AWS S3",
+    url: "assets/skills-icons/s3.png",
   },
   {
     key: "api-gatewat",
     value: "AWS Api-Gateway",
+    url: "assets/skills-icons/api-gateway.png",
+  },
+  {
+    key: "lex",
+    value: "AWS Lex",
+    url: "assets/skills-icons/lexV2.png",
   },
   {
     key: "vue",
     value: "Vue Js",
+    url: "assets/skills/vue-icon.png",
   },
-  {
-    key: "ts",
-    value: "TypeScript",
-  },
-  {
-    key: "sql",
-    value: "SQL",
-  },
+  // {
+  //   key: "ts",
+  //   value: "TypeScript",
+  // },
+  // {
+  //   key: "sql",
+  //   value: "SQL",
+  // },
   {
     key: "git",
     value: "GIT",
+    url: "assets/skills-icons/git.png",
+  },
+  {
+    key: "git lab",
+    value: "GIT Lab",
+    url: "assets/skills-icons/gitlab.png",
   },
 ];
 export const ABOUT_DESCRIPTION = `I'm a Full Stack Developer, I possess a unique skill set that combines both front-end 
