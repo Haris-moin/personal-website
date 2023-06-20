@@ -111,6 +111,69 @@ export const SKILLS = [
     url: "assets/skills-icons/gitlab.png",
   },
 ];
+export const EXPERIENCES = [
+  {
+    organization: "Nisum",
+    title: "Software Engineer",
+    startDate: "10/2021",
+    endDate: "Present",
+    technology: [
+      { key: "js", value: "JavaScript" },
+      { key: "react", value: "React Js" },
+      { key: "vue", value: "Vue Js" },
+      { key: "html", value: "HTML" },
+      { key: "css", value: "CSS" },
+      { key: "scss", value: "SCSS" },
+      { key: "node", value: "Node Js" },
+      { key: "express", value: "Express Js" },
+      { key: "lambda", value: "AWS Lambda" },
+      { key: "dynamo", value: "AWS Dynamo" },
+      { key: "s3", value: "AWS S3" },
+      { key: "api-gateway", value: "AWS API-Gateway" },
+      { key: "lex", value: "AWS Lex V2" },
+    ],
+    responsibilities: [
+      " Effectively worked on web application projects built on technologies like React, Vue, DynamoDB, S3, AWS Lambda, Node with ExpressJS and including tasks on both frontend and backend. ",
+      "On-time delivery of tasks assigned.",
+      "Compliance of the software development standards and processes.",
+      "Understand the technical aspects and business flow of the projects.",
+      "Validate the technical specification along with the technical lead before the development.",
+      "Responsible for the success of the release for the completeness and accuracy of their piece of work.",
+    ],
+  },
+  {
+    organization: "Nisum",
+    startDate: "07/2021",
+    endDate: "10/2021",
+    title: "Associate Software Engineer",
+    technology: [
+      { key: "js", value: "JavaScript" },
+      { key: "react", value: "React Js" },
+      { key: "html", value: "HTML" },
+      { key: "css", value: "CSS" },
+      { key: "scss", value: "SCSS" },
+    ],
+    responsibilities: [
+      " Effectively worked on web application projects built on technologies like React, Vue and including tasks of frontend.",
+      "On-time delivery of tasks assigned.",
+      "Responsible for the success of the release for the completeness and accuracy of their piece of work.",
+      "Design, modify, exhibit good coding skills, get the code reviewed by the technical lead and incorporate the feedback.",
+      "Understand the technical aspects and business flow of the projects .",
+    ],
+  },
+  // {
+  //   organization: "All Star Technology",
+  //   startDate: "02-2021,",
+  //   endDate: "04-2021",
+  //   title: "Software Engineer Intern",
+  //   technology: [
+  //     { key: "js", value: "JavaScript" },
+  //     { key: "react", value: "React Js" },
+  //     { key: "html", value: "HTML" },
+  //     { key: "css", value: "CSS" },
+  //   ],
+  // },
+];
 export const ABOUT_DESCRIPTION = `I'm a Full Stack Developer, I possess a unique skill set that combines both front-end 
 and back-end expertise. I bring life to captivating designs through intuitive user interfaces, while ensuring robust 
 functionality and seamless integration with powerful backend systems. With a deep understanding of the entire development

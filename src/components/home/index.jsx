@@ -3,7 +3,7 @@ import { HOME_CONTENT, SOCIALS_LINKS } from "../../utils/constant";
 import "./style.css";
 import About from "../about";
 import Contact from "../contact";
-import Experience from "../my-experience";
+import Experience from "../experience";
 const Home = () => {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
@@ -88,13 +88,13 @@ const Home = () => {
         </div>
       </div>
       <div ref={aboutRef} id="about-details">
-        <About scrollDown={scrollDown} contactRef={contactRef} />
+        <About scrollDown={scrollDown} ref={contactRef} />
       </div>
-      <div ref={experienceRef}>
-        <Experience />
+      <div>
+        <Experience ref={experienceRef} />
       </div>
-      <div ref={contactRef} id="contact-details">
-        <Contact />
+      <div>
+        <Contact ref={contactRef} />
       </div>
     </>
   );

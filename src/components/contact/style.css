@@ -1,15 +1,10 @@
 .contact-container {
   background: linear-gradient(
-      to right,
-      rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
-    ),
-    url(../../../public/assets/common-bg.svg);
-  background-position: center;
-  /* height: 50vh; */
-  min-height: 40rem;
-  position: relative;
-  padding: 20px 0;
+    to right,
+    rgba(245, 245, 245, 0.8),
+    rgba(245, 245, 245, 0.8)
+  );
+  padding: 40px 0;
 }
 .contact-content-heading {
   text-align: center;

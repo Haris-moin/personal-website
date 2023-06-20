@@ -1,8 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { ABOUT_DESCRIPTION, SKILLS } from "../../utils/constant";
 import "./style.css";
+import Skills from "../skills";
 
-const About = ({ scrollDown, contactRef }) => {
+const About = ({ scrollDown }, ref) => {
   return (
     <>
       <div className="about-container">
@@ -25,28 +26,15 @@ const About = ({ scrollDown, contactRef }) => {
               <button
                 className="contact-button"
                 onClick={() => {
-                  scrollDown(contactRef);
+                  scrollDown(ref);
                 }}
               >
                 Contact
               </button>
             </div>
           </div>
-          <div className="skills-conatiner">
-            <div className="skills-heading">
-              <h1>My Skills</h1>
-            </div>
-            <div className="skills">
-              {SKILLS.map(({ key, value, url }) => (
-                <div key={key} className="skill">
-                  <img src={url} alt={key} />
-                  <div className="skill-name">{value}</div>
-                  {/* <Tag color="lightgrey" className="tag">
-                    {value}
-                  </Tag> */}
-                </div>
-              ))}
-            </div>
+          <div className="skills-section">
+            <Skills />
           </div>
         </div>
       </div>
@@ -54,4 +42,4 @@ const About = ({ scrollDown, contactRef }) => {
   );
 };
 
-export default About;
+export default forwardRef(About);

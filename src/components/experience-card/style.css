@@ -1,0 +1,27 @@
+.experience-card-container {
+  text-align: left;
+  margin: 20px 0;
+}
+.experience-org {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.experience-org .org {
+  margin: 0;
+  color: rgb(83, 83, 83);
+}
+.experience-card {
+  padding: 20px;
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.experience-list li {
+  color: rgb(73, 73, 73);
+  display: inline;
+}
+
+.resp-info {
+  color: rgb(73, 73, 73);
+}
