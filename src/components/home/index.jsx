@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 import { HOME_CONTENT, SOCIALS_LINKS } from "../../utils/constant";
 import "./style.css";
+import About from "../about";
+import Contact from "../contact";
+import Experience from "../my-experience";
 const Home = () => {
+  const aboutRef = useRef(null);
+  const contactRef = useRef(null);
+  const experienceRef = useRef(null);
+  const scrollDown = (ref) => {
+    console.log("ref: ", ref);
+    window.scrollTo({
+      top: ref.current?.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div className="home-container">
@@ -61,11 +74,27 @@ const Home = () => {
           </div>
         </div>
         <div className="btn-container">
-          <button className="experience-button">Experience</button>
+          <button
+            className="experience-button"
+            onClick={() => {
+              scrollDown(experienceRef);
+            }}
+          >
+            Experience
+          </button>
         </div>
         <div className="home-hero-mouse-scroll-cont">
           <div className="mouse"></div>
         </div>
+      </div>
+      <div ref={aboutRef} id="about-details">
+        <About scrollDown={scrollDown} contactRef={contactRef} />
+      </div>
+      <div ref={experienceRef}>
+        <Experience />
+      </div>
+      <div ref={contactRef} id="contact-details">
+        <Contact />
       </div>
     </>
   );

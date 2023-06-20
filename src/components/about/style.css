@@ -39,7 +39,7 @@
 }
 .skills-conatiner .skills {
   overflow: hidden;
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -47,25 +47,35 @@
   margin: auto;
 }
 .skill {
-  margin: 10px 5px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
 }
 .skill .tag {
-  margin: 5pxs;
+  margin: 8px;
   padding: 5px 10px;
   color: rgb(78, 77, 77);
   font-size: 16px;
 }
+.skill img {
+  width: 90px;
+  /* height: 70px; */
+}
+.skill .skill-name {
+  text-align: center;
+  color: rgb(118, 116, 116);
+}
 .about-details {
   padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 .about-description-container {
   color: rgb(118, 116, 116);
   font-size: 19px;
   letter-spacing: 1px;
-  line-height: 1.5rem;
-  width: 40%;
+  line-height: 2rem;
+  width: 80%;
   margin: 20px auto;
   word-spacing: 0.5rem;
 }
@@ -74,18 +84,23 @@
 }
 .skills-heading {
   color: rgb(73, 73, 73);
-  width: 70%;
+  width: 80%;
   margin: auto;
   letter-spacing: 2px;
 }
 .skills-conatiner {
   margin: 0 auto;
   overflow: hidden;
-  width: 50%;
+  width: 100%;
 }
 .about-description-heading h1 {
   color: rgb(73, 73, 73);
   margin-top: 0;
+}
+.contact-button-container {
+  text-align: end;
+  margin: 20px 0;
+  padding: 20px 0;
 }
 .contact-button {
   margin-top: 20px;
@@ -140,5 +155,17 @@
   }
   .skills {
     padding: 0;
+    width: 100%;
+  }
+  .skills .skill {
+    width: 110px;
+  }
+  .contact-button-container {
+    text-align: left;
+  }
+  .contact-button-container .contact-button {
+    margin: 20px 0;
+    padding: 1.2rem 2rem;
+    font-size: 1.2rem;
   }
 }

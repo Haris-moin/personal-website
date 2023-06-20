@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="contact-links">
             {CONTACT_LINKS.map((s) => {
               return (
-                <div className="contact-link">
+                <div key={s.title} className="contact-link">
                   <a href={s.value}>
                     <img src={s.icon} alt="" />
                     <h4>{s.title}</h4>

@@ -14,9 +14,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <di className="made-by">
+        <div className="made-by">
           <p>© Copyright 2023. Made by MUHAMMAD HARIS MOIN</p>
-        </di>
+        </div>
       </div>
     </>
   );

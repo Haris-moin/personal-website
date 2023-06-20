@@ -1,9 +1,8 @@
 import React from "react";
-import { Button, Tag } from "antd";
 import { ABOUT_DESCRIPTION, SKILLS } from "../../utils/constant";
 import "./style.css";
 
-const About = () => {
+const About = ({ scrollDown, contactRef }) => {
   return (
     <>
       <div className="about-container">
@@ -23,7 +22,14 @@ const About = () => {
             <div className="about-description">{ABOUT_DESCRIPTION}</div>
 
             <div className="contact-button-container">
-              <button className="contact-button">Contact</button>
+              <button
+                className="contact-button"
+                onClick={() => {
+                  scrollDown(contactRef);
+                }}
+              >
+                Contact
+              </button>
             </div>
           </div>
           <div className="skills-conatiner">
@@ -31,12 +37,13 @@ const About = () => {
               <h1>My Skills</h1>
             </div>
             <div className="skills">
-              {SKILLS.map(({ key, value }) => (
+              {SKILLS.map(({ key, value, url }) => (
                 <div key={key} className="skill">
-                  <Tag color="lightgrey" className="tag">
-                    {" "}
+                  <img src={url} alt={key} />
+                  <div className="skill-name">{value}</div>
+                  {/* <Tag color="lightgrey" className="tag">
                     {value}
-                  </Tag>
+                  </Tag> */}
                 </div>
               ))}
             </div>
