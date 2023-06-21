@@ -5,7 +5,7 @@ import { CONTACT_DESCRIPTION, CONTACT_LINKS } from "../../utils/constant";
 const Contact = (props, ref) => {
   return (
     <>
-      <div className="contact-container" ref={ref}>
+      <div id="contact" className="contact-container" ref={ref}>
         <div className="contact-content">
           <div className="contact-content-heading">
             <div className="contact-heading">

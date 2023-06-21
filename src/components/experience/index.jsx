@@ -1,12 +1,12 @@
 import React, { forwardRef } from "react";
 import "./style.css";
 import ExperienceCard from "../experience-card";
-import { EXPERIENCES } from "../../utils/constant";
+import { EXPERIENCES, REUME_URL } from "../../utils/constant";
 
 function Experience(props, ref) {
   return (
     <>
-      <div ref={ref} className="exp-container">
+      <div id="experience" ref={ref} className="exp-container">
         <div className="main-heading">
           <h1>EXPERIENCE</h1>
           <span className="bottom-border"></span>
@@ -23,6 +23,16 @@ function Experience(props, ref) {
               </div>
             ))}
           </div>
+        </div>
+        <div className="btn-container">
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            className="resume-button"
+            href={REUME_URL}
+          >
+            Resume
+          </a>
         </div>
       </div>
     </>

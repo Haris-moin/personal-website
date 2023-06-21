@@ -6,7 +6,7 @@ import Skills from "../skills";
 const About = ({ scrollDown }, ref) => {
   return (
     <>
-      <div className="about-container">
+      <div id="about" className="about-container">
         <div className="main-heading">
           <h1>ABOUT ME</h1>
           <span className="bottom-border"></span>

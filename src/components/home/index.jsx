@@ -17,7 +17,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="home-container">
+      <div id="home" className="home-container">
         <div className="home-content-container">
           <div className="home-socials-container">
             <div className="home-socials">

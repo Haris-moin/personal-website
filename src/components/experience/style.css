@@ -44,3 +44,27 @@
   margin: auto;
   width: 70%;
 }
+.btn-container {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.resume-button {
+  margin: 20px auto;
+  background-color: #facf0f;
+  border: #facf0f;
+  padding: 1.2rem 4rem;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border-radius: 5px;
+  display: block;
+  width: 115px;
+  height: 25px;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}

@@ -1,20 +1,17 @@
 import React from "react";
 import { Menu } from "antd";
-import { useState } from "react";
-import routes from "../../routes/routeLists";
-import { ROUTES } from "../../utils/constant";
-import "./style.css";
 
-const Header = () => {
-  const [current, setCurrent] = useState(ROUTES.HOME.name);
+import routes from "../../routes/routeLists";
+import { Link } from "react-router-dom";
+import "./style.css";
+import { REUME_URL } from "../../utils/constant";
+
+const Header = (ref) => {
+  console.log("ref: ", ref);
 
   let items = routes.map((r) => {
     return { label: r.displayName, key: r.name };
   });
-
-  const onNavigation = (e) => {
-    setCurrent(e.key);
-  };
 
   return (
     <div className="header-container">
@@ -23,13 +20,28 @@ const Header = () => {
         <h2>Muhammad Haris Moin</h2>
       </div>
       <div className="menu-container">
-        <Menu
-          className="menu"
-          onClick={onNavigation}
-          selectedKeys={[current]}
-          mode="horizontal"
-          items={items}
-        />
+        <Menu className="menu" mode="horizontal" defaultSelectedKeys={["home"]}>
+          {items.map((item) => {
+            if (item.key !== "resume") {
+              return (
+                <Menu.Item key={item.key}>
+                  <a href={"#" + item.key}>{item.label}</a>
+                </Menu.Item>
+              );
+            } else {
+              return (
+                <Menu.Item key={item.key}>
+                  <span>{item.label}</span>
+                  <Link
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    to={REUME_URL}
+                  />
+                </Menu.Item>
+              );
+            }
+          })}
+        </Menu>
       </div>
     </div>
   );

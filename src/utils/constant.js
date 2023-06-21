@@ -9,15 +9,20 @@ export const ROUTES = {
     name: "about",
     title: "About",
   },
-  CERTIFICATES: {
-    path: "/certificates",
-    name: "certificates",
-    title: "Certificates",
-  },
+  // CERTIFICATES: {
+  //   path: "/certificates",
+  //   name: "certificates",
+  //   title: "Certificates",
+  // },
   EXPERIENCE: {
     path: "/experience",
     name: "experience",
     title: "Experience",
+  },
+  RESUME: {
+    path: "/resume",
+    name: "resume",
+    title: "Resume",
   },
   CONTACT: {
     path: "/contact",
@@ -179,7 +184,7 @@ and back-end expertise. I bring life to captivating designs through intuitive us
 functionality and seamless integration with powerful backend systems. With a deep understanding of the entire development
  process, I am equipped to take projects from conception to deployment, delivering impactful solutions that drive business
   success.`;
-
+export const REUME_URL = `https://drive.google.com/file/d/1mEgjeLo1GB7R_n2_XeOgRLnOaQDMARG-/view?usp=sharing`;
 export const HOME_CONTENT = {
   heading: "Hey I'm Muhammad Haris Moin",
   description: `Software Engineer and self-motivated with strategic thinker and innovative creator to develop software that is
@@ -189,9 +194,9 @@ export const HOME_CONTENT = {
 export const SOCIALS_LINKS = {
   linkedin: "https://www.linkedin.com/in/haris-moin-a100121b9/",
   github: "https://github.com/Haris-moin",
-  facebook: "https://github.com/Haris-moin",
-  twitter: "https://www.linkedin.com/in/haris-moin-a100121b9/",
-  email: "",
+  facebook: "https://www.facebook.com/profile.php?id=100041819631986",
+  twitter: "https://twitter.com/?lang=en",
+  email: "harismoin48@gmail.com",
 };
 
 export const CONTACT_DESCRIPTION = `Let's unlock the possibilities! Connect with me online, and let's ignite a 
