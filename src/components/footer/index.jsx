@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HOME_CONTENT } from "../../utils/constant";
 import "./style.css";
 
 const Footer = () => {
+  const [currentYear, setCurrentYear] = useState("");
+
+  useEffect(() => {
+    const year = new Date().getFullYear();
+    setCurrentYear(year.toString());
+  }, []);
   return (
     <>
       <div className="footer-container">
@@ -15,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="made-by">
-          <p>© Copyright 2023. Made by MUHAMMAD HARIS MOIN</p>
+          <p>&copy; {currentYear} Muhammad Haris Moin. All rights reserved.</p>
         </div>
       </div>
     </>
