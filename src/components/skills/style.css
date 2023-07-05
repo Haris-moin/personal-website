@@ -1,0 +1,37 @@
+.skills-conatiner .skills {
+  overflow: hidden;
+  width: 80%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: auto;
+}
+.skill {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+.skill .tag {
+  margin: 8px;
+  padding: 5px 10px;
+  color: rgb(78, 77, 77);
+  font-size: 16px;
+}
+.skill img {
+  width: 90px;
+  /* height: 70px; */
+}
+.skill .skill-name {
+  text-align: center;
+  color: rgb(118, 116, 116);
+}
+@media screen and (max-width: 1024px) {
+  .skills-conatiner .skills {
+    width: 100%;
+    justify-content: left;
+  }
+  .skill {
+    width: 155px;
+  }
+}

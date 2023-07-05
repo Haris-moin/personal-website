@@ -1,0 +1,75 @@
+.exp-container {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(../../../public/assets/common-bg.svg);
+  padding: 40px 0;
+  background-position: center;
+  position: relative;
+}
+.main-heading {
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.main-heading p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 40px 0;
+  padding: 10px;
+  color: rgb(118, 116, 116);
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+.main-heading .bottom-border {
+  position: absolute;
+  height: 5px;
+  width: 14rem;
+  background: #facf0f;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+.main-heading h1 {
+  margin-bottom: 14px;
+  color: rgb(73, 73, 73);
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  font-size: 40px;
+}
+.experience-card-list {
+  margin: auto;
+  width: 70%;
+}
+.btn-container {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.resume-button {
+  margin: 20px auto;
+  background-color: #facf0f;
+  border: #facf0f;
+  padding: 1.2rem 4rem;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border-radius: 5px;
+  display: block;
+  width: 115px;
+  height: 25px;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+@media screen and (max-width: 470px) {
+  .resume-button {
+    width: 160px;
+  }
+}

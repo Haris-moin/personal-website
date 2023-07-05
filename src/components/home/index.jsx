@@ -3,13 +3,12 @@ import { HOME_CONTENT, SOCIALS_LINKS } from "../../utils/constant";
 import "./style.css";
 import About from "../about";
 import Contact from "../contact";
-import Experience from "../my-experience";
+import Experience from "../experience";
 const Home = () => {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
   const experienceRef = useRef(null);
   const scrollDown = (ref) => {
-    console.log("ref: ", ref);
     window.scrollTo({
       top: ref.current?.offsetTop,
       behavior: "smooth",
@@ -17,7 +16,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="home-container">
+      <div id="home" className="home-container">
         <div className="home-content-container">
           <div className="home-socials-container">
             <div className="home-socials">
@@ -88,13 +87,13 @@ const Home = () => {
         </div>
       </div>
       <div ref={aboutRef} id="about-details">
-        <About scrollDown={scrollDown} contactRef={contactRef} />
+        <About scrollDown={scrollDown} ref={contactRef} />
       </div>
-      <div ref={experienceRef}>
-        <Experience />
+      <div>
+        <Experience ref={experienceRef} />
       </div>
-      <div ref={contactRef} id="contact-details">
-        <Contact />
+      <div>
+        <Contact ref={contactRef} />
       </div>
     </>
   );

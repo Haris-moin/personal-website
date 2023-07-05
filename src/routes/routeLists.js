@@ -16,6 +16,11 @@ const routes = [
     name: ROUTES.EXPERIENCE.name,
     displayName: ROUTES.EXPERIENCE.title,
   },
+  {
+    path: ROUTES.RESUME.path,
+    name: ROUTES.RESUME.name,
+    displayName: ROUTES.RESUME.title,
+  },
   // {
   //   path: ROUTES.CERTIFICATES.path,
   //   name: ROUTES.CERTIFICATES.name,

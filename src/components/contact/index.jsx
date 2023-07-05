@@ -1,14 +1,16 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./style.css";
 import { CONTACT_DESCRIPTION, CONTACT_LINKS } from "../../utils/constant";
 
-const Contact = () => {
+const Contact = (props, ref) => {
   return (
-    <div>
-      <div className="contact-container">
+    <>
+      <div id="contact" className="contact-container" ref={ref}>
         <div className="contact-content">
           <div className="contact-content-heading">
-            <h1>Contact</h1>
+            <div className="contact-heading">
+              <h1>Contact</h1>
+            </div>
             <span className="bottom-border"></span>
           </div>
           <div className="contact-content-desc">
@@ -28,8 +30,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default Contact;
+export default forwardRef(Contact);

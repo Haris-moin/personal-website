@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LayoutScreens from "./layout-screens";
 import Header from "./components/header";
 import Home from "./components/home";
 import Footer from "./components/footer";
@@ -7,8 +6,8 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" Component={Home} />
         </Routes>

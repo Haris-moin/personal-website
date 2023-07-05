@@ -162,4 +162,8 @@
   .btn-container {
     margin: 0;
   }
+  .experience-button {
+    width: 285px;
+    padding: 16px 40px;
+  }
 }
