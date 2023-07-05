@@ -20,7 +20,7 @@ const Contact = (props, ref) => {
             {CONTACT_LINKS.map((s) => {
               return (
                 <div key={s.title} className="contact-link">
-                  <a href={s.value}>
+                  <a target="_blank" rel="noreferrer" href={s.value}>
                     <img src={s.icon} alt="" />
                     <h4>{s.title}</h4>
                   </a>
