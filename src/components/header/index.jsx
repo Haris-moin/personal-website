@@ -14,7 +14,7 @@ const Header = (ref) => {
   return (
     <div className="header-container">
       <div className="avatar-container">
-        {/* <img src="assets/avatar.jpeg" alt="" /> */}
+        <img src="assets/haris-logo.png" alt="" />
         <h2>Muhammad Haris Moin</h2>
       </div>
       <div className="menu-container">
