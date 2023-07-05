@@ -92,7 +92,7 @@
   cursor: pointer;
   transform: translateY(-5px);
 }
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .main-heading {
     width: 70%;
   }
@@ -108,12 +108,12 @@
   .skills-heading {
     width: 100%;
   }
-  .skills-conatiner .skills {
-    width: 100%;
+  .skills {
+    width: 70%;
     justify-content: left;
   }
 }
-@media only screen and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   .main-heading {
     width: 90%;
   }
@@ -138,7 +138,8 @@
   }
   .contact-button-container .contact-button {
     margin: 20px 0;
-    padding: 1.2rem 2rem;
+    padding: 16px 40px;
     font-size: 1.2rem;
+    width: 285px;
   }
 }

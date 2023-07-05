@@ -7,8 +7,6 @@ import "./style.css";
 import { REUME_URL } from "../../utils/constant";
 
 const Header = (ref) => {
-  console.log("ref: ", ref);
-
   let items = routes.map((r) => {
     return { label: r.displayName, key: r.name };
   });

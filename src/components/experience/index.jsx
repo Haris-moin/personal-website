@@ -11,8 +11,8 @@ function Experience(props, ref) {
           <h1>EXPERIENCE</h1>
           <span className="bottom-border"></span>
           <p>
-            Here you will find information about my experience, what I do, and
-            my current skills mostly in terms of programming and technology
+            My Story of Growth: Experience, Expertise, and Proficiency in
+            Programming and Technology
           </p>
         </div>
         <div className="exp-list-container">

@@ -25,3 +25,19 @@
 .resp-info {
   color: rgb(73, 73, 73);
 }
+@media screen and (max-width: 1024px) {
+  .experience-card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .experience-card-list {
+    width: 90%;
+  }
+  .experience-list {
+    font-size: 13px;
+  }
+  .resp-info ul {
+    font-size: 13px;
+  }
+}

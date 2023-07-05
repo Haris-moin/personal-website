@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { ABOUT_DESCRIPTION, SKILLS } from "../../utils/constant";
+import { ABOUT_DESCRIPTION } from "../../utils/constant";
 import "./style.css";
 import Skills from "../skills";
 

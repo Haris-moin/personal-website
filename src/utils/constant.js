@@ -95,7 +95,7 @@ export const SKILLS = [
   {
     key: "vue",
     value: "Vue Js",
-    url: "assets/skills/vue-icon.png",
+    url: "assets/skills/Vue.js.png",
   },
   // {
   //   key: "ts",
@@ -196,7 +196,7 @@ export const SOCIALS_LINKS = {
   github: "https://github.com/Haris-moin",
   facebook: "https://www.facebook.com/profile.php?id=100041819631986",
   twitter: "https://twitter.com/?lang=en",
-  email: "harismoin48@gmail.com",
+  email: "mailto:harismoin48@gmail.com",
 };
 
 export const CONTACT_DESCRIPTION = `Let's unlock the possibilities! Connect with me online, and let's ignite a 
@@ -211,7 +211,7 @@ export const CONTACT_LINKS = [
   },
   {
     title: "Facebook",
-    value: SOCIALS_LINKS.linkedin,
+    value: SOCIALS_LINKS.facebook,
     icon: "assets/facebook-dark.png",
   },
   {

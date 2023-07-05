@@ -9,7 +9,6 @@ const Home = () => {
   const contactRef = useRef(null);
   const experienceRef = useRef(null);
   const scrollDown = (ref) => {
-    console.log("ref: ", ref);
     window.scrollTo({
       top: ref.current?.offsetTop,
       behavior: "smooth",
