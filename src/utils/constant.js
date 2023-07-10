@@ -184,7 +184,7 @@ and back-end expertise. I bring life to captivating designs through intuitive us
 functionality and seamless integration with powerful backend systems. With a deep understanding of the entire development
  process, I am equipped to take projects from conception to deployment, delivering impactful solutions that drive business
   success.`;
-export const REUME_URL = `https://drive.google.com/file/d/1mEgjeLo1GB7R_n2_XeOgRLnOaQDMARG-/view?usp=sharing`;
+export const REUME_URL = `https://drive.google.com/file/d/1otqncSIOGqsacHHhIU00_ov3GQUbZsIJ/view?usp=sharing`;
 export const HOME_CONTENT = {
   heading: "Hey I'm Muhammad Haris Moin",
   description: `Software Engineer and self-motivated with strategic thinker and innovative creator to develop software that is
