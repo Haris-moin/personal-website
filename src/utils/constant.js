@@ -43,6 +43,11 @@ export const SKILLS = [
     url: "assets/skills-icons/react.png",
   },
   {
+    key: "next",
+    value: "Next Js",
+    url: "assets/skills/next-js.png",
+  },
+  {
     key: "html",
     value: "HTML",
     url: "assets/skills-icons/html.png",
@@ -82,20 +87,30 @@ export const SKILLS = [
     value: "AWS S3",
     url: "assets/skills-icons/s3.png",
   },
-  {
-    key: "api-gatewat",
-    value: "AWS Api-Gateway",
-    url: "assets/skills-icons/api-gateway.png",
-  },
+  // {
+  //   key: "api-gatewat",
+  //   value: "AWS Api-Gateway",
+  //   url: "assets/skills-icons/api-gateway.png",
+  // },
   {
     key: "lex",
     value: "AWS Lex",
     url: "assets/skills-icons/lexV2.png",
   },
+  // {
+  //   key: "vue",
+  //   value: "Vue Js",
+  //   url: "assets/skills/Vue.js.png",
+  // },
   {
-    key: "vue",
-    value: "Vue Js",
-    url: "assets/skills/Vue.js.png",
+    key: "mongo",
+    value: "MongoDB",
+    url: "assets/skills/Mongodb.png",
+  },
+  {
+    key: "mysql",
+    value: "My Sql",
+    url: "assets/skills/mysql-logo.png",
   },
   // {
   //   key: "ts",
@@ -125,7 +140,8 @@ export const EXPERIENCES = [
     technology: [
       { key: "js", value: "JavaScript" },
       { key: "react", value: "React Js" },
-      { key: "vue", value: "Vue Js" },
+      // { key: "vue", value: "Vue Js" },
+      { key: "next", value: "Next Js" },
       { key: "html", value: "HTML" },
       { key: "css", value: "CSS" },
       { key: "scss", value: "SCSS" },
@@ -138,7 +154,7 @@ export const EXPERIENCES = [
       { key: "lex", value: "AWS Lex V2" },
     ],
     responsibilities: [
-      " Effectively worked on web application projects built on technologies like React, Vue, DynamoDB, S3, AWS Lambda, Node with ExpressJS and including tasks on both frontend and backend. ",
+      " Effectively worked on web application projects built on technologies like React, Next, DynamoDB, S3, AWS Lambda, Node with ExpressJS and including tasks on both frontend and backend. ",
       "On-time delivery of tasks assigned.",
       "Compliance of the software development standards and processes.",
       "Understand the technical aspects and business flow of the projects.",
@@ -166,18 +182,6 @@ export const EXPERIENCES = [
       "Understand the technical aspects and business flow of the projects .",
     ],
   },
-  // {
-  //   organization: "All Star Technology",
-  //   startDate: "02-2021,",
-  //   endDate: "04-2021",
-  //   title: "Software Engineer Intern",
-  //   technology: [
-  //     { key: "js", value: "JavaScript" },
-  //     { key: "react", value: "React Js" },
-  //     { key: "html", value: "HTML" },
-  //     { key: "css", value: "CSS" },
-  //   ],
-  // },
 ];
 export const ABOUT_DESCRIPTION = `I'm a Full Stack Developer, I possess a unique skill set that combines both front-end 
 and back-end expertise. I bring life to captivating designs through intuitive user interfaces, while ensuring robust 
