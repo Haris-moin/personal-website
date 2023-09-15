@@ -188,7 +188,7 @@ and back-end expertise. I bring life to captivating designs through intuitive us
 functionality and seamless integration with powerful backend systems. With a deep understanding of the entire development
  process, I am equipped to take projects from conception to deployment, delivering impactful solutions that drive business
   success.`;
-export const REUME_URL = `https://drive.google.com/file/d/1zcvPXNcyOUXJrl2DAXbagGQ_gTICVqJj/view?usp=sharing`;
+export const REUME_URL = `https://drive.google.com/file/d/1vvsiczM8X_GuS3PAN_jUhlPZ9ouQgL4O/view?usp=sharing`;
 
 export const HOME_CONTENT = {
   heading: "Hey I'm Muhammad Haris Moin",
